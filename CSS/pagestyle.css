@@ -1,0 +1,101 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+#container{
+	width: 900px;
+	margin: 0 auto;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    font-weight: bolder;
+    text-shadow:5px 5px 10px darkgray;
+}
+
+a:active {
+    text-decoration: underline;
+    color: black;
+  }
+
+div.links{
+  display: inline-block;
+}
+div.header{
+  display: inline-block;
+  border-bottom: solid darkgray 1px;
+  border-top: solid darkgray 1px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+a.header{
+	margin:0 40px;
+	text-shadow:0px 0px 0px white;
+	color: darkgrey;
+	text-transform: uppercase;
+}
+a.header:hover{
+	color:black;
+	font-weight: bolder;
+	text-transform: lowercase;
+}
+
+
+#left{
+	float:left;
+	width: 45%;
+	border-top: solid darkgray 1px;
+	border-right: solid darkgray 1px;
+	padding:2%;
+	height: 450px;
+
+}
+#right{
+	float: right;
+	width: 45%;
+	border-top: solid darkgray 1px;
+	border-left: solid darkgray 1px;
+	padding: 2%;
+	height: 450px;
+}
+#top{
+	border-bottom: solid darkgray 1px;
+	margin-bottom: 2%;
+}
+span{
+	font-style: italic;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin-bottom: 15px;
+	color: orangered
+}
+h1.good{
+	color:limegreen;
+}
+img.bottom{
+	width: 90%;
+
+
+}
+h3{
+	text-align: center;
+}
+h2{
+	font-size: 35px;
+	font-weight: bolder;
+	width: 100%;
+}

@@ -1,0 +1,64 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url(http://g-ecx.images-amazon.com/images/G/01/books/promos/NewCooper_51_LG.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  text-align: center;
+  text-shadow:5px 5px 10px black;
+  color: white;
+}
+
+a{
+  padding: 0 30px;
+  font-size: 40px;
+  border: solid white 2px;
+  display: block;
+  width: 30%;
+  margin: 15px auto;
+}
+a.good:hover {
+    color: limegreen;
+    font-weight: bolder;
+    border: solid limegreen 2px;
+  }
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: orangered;
+    font-weight: bolder;
+    border: solid orangered 2px;
+}
+a:active {
+    color: slategrey;
+    border: solid slategrey 2px;
+  }
+
+
+h2{
+  margin-top: 2px;
+  font-weight: bolder;
+  margin-bottom: 100px;
+}
+h1{
+  margin-bottom: 2px;
+  margin-top:80px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+h3{
+  margin: 5px;
+  font-size: 19px;
+}
+span{
+  color:orangered;
+  text-transform: uppercase;
+}
